@@ -121,15 +121,4 @@ module.exports = (app) => {
          });
       }
    });
-
-
-
-
-
-   // ========================== static
-//    app.get('/.*', restify.plugins.serveStatic({
-//       'directory': 'public',
-//       'default': 'index.html'
-//    }));
-
 }
