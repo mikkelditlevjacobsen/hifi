@@ -1,4 +1,4 @@
-fetch('http://localhost:1337/random')
+fetch('http://188.226.185.108:1337/random')
 .then((response) => {
    if (response.ok) {
       return response.json();
