@@ -25,7 +25,7 @@ require(path.join(__dirname, 'api','routes', 'index'))(app);
 app.listen(port, function (err) {
    if (err) console.log(err);
    console.log('========================================================================================');
-   console.log('%s is listening on port %s, address: %s', app.name, port, 'http://localhost:' + port);
+   console.log('%s is listening on port %s, address: %s', app.name, port, 'http://188.226.185.108:' + port);
 });
 
 const browserSync = require('browser-sync').create();
