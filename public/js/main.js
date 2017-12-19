@@ -23,7 +23,7 @@ function getParameterByName(name, url) {
             mode: 'cors',
             cache: 'default'
          };
-         let request = new Request(`http://localhost:1337/products/${id}`, init);
+         let request = new Request(`http://188.226.185.108:1337/products/${id}`, init);
    
          fetch(request)
             .then(response => {
