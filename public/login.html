@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Front med API</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>HIFI adm</title>
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div id="status"></div>
-    <nav>
-        <ul>
-            <li><a href="/">Forside</a></li>
-            <li><a href="/login.html">Log ind</a></li>
-        </ul>
-    </nav>
-    <h1>Log ind</h1>
-    <form class="loginForm">
-        <div><label for="username">Brugernavn</label><input type="text" name="username" id="username"></div>
-        <div><label for="password">Adgangskode</label><input type="password" name="password" id="password"></div>
-        <button>Log ind!</button>
-    </form>
-    <button id="logud">log ud</button>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Mikkel's hi-fi biks</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li class="active"><a href="adm.html">Adm</a></li>
+                  </ul>
+                </div>
+              </nav>
 
-    <script src="./js/loginform.js"></script>
+              <h1>Log ind</h1>
+              <form class="loginForm">
+                  <div><label for="username">Brugernavn</label><input type="text" name="username" id="username"></div>
+                  <div><label for="password">Adgangskode</label><input type="password" name="password" id="password"></div>
+                  <div style="color: #f00;" id="status"></div>              
+                  <button>Log ind!</button>
+              </form> 
+          
+              <script src="./js/loginform.js"></script>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
